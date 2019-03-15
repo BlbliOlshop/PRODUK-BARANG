@@ -22,3 +22,11 @@ data/DoctrineORMModule/cache/
 # Legacy ZF1
 demos/
 extras/documentation
+# open "html"
+<!DOCTYPE html>
+<html>
+<head>
+<form>
+<form action="index.php" enctype="multipart/form-data">
+ Select a file to upload: <input type="file" name="selectedfile" />
+</form>
